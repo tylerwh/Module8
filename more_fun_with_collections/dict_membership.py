@@ -10,7 +10,10 @@ def in_dict(dictionary, element):
   :param element: the element received as argument to verify if in dictionary argument.
   :return: boolean true/false depending on if element in dictionary
   """
-  pass
+  if element in dictionary:
+    return True
+  else:
+    return False
 
 
 if __name__ == "__main__":
