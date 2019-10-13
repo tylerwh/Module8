@@ -11,7 +11,7 @@ class TestSetMembership(unittest.TestCase):
 
   def test_in_set_false(self):
     false_test_set = ('12345')
-    false_element = 0
+    false_element = '0'
     self.assertFalse(set_membership.in_set(false_test_set, false_element))
 
 
