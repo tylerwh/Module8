@@ -9,7 +9,8 @@ def switch_average(key):
   averages = {
     "A": 90,
     "B": 80,
-    "C": 70
+    "C": 70, 
+    "D": 60
   }
   return averages.get(normalized_key)
 
