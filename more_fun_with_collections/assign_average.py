@@ -8,7 +8,8 @@ def switch_average(key):
   normalized_key = key.upper()
   averages = {
     "A": 90,
-    "B": 80
+    "B": 80,
+    "C": 70
   }
   return averages.get(normalized_key)
 
