@@ -35,8 +35,7 @@ class TestSwitchCase(unittest.TestCase):
   def test_non_key_assign_average(self):
     non_key = "E"
     expectation = KeyError
-    with self.assertRaises(expectation):
-      a_avg.switch_average(non_key)
+    self.assertRaises(expectation, a_avg.switch_average(non_key))
     
 
 
